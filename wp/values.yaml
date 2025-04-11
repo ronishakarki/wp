@@ -8,7 +8,7 @@ wp:
     repository: msalim22/wp
     tag: v2
     pullPolicy: Always
-  replicas: 5
+  replicas: 2
   rollingUpdate:
     maxSurge: 1
     maxUnavailable: 1
